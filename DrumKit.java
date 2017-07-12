@@ -64,7 +64,7 @@ drumLabelWithImage.addMouseListener(this);
 	    	if(drumClicked == drumLabelWithImage){
 	    		
 	   		 // 17. ...use the playSound method to play a drum sound.
-playSound("drumSound.wav");
+playSound("drum sound.aiff");
 	    	}
 	    	// 18. Add more images to make a drumkit. Remember to add a mouse listener to each one.
 	    }
