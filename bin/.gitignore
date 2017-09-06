@@ -10,6 +10,7 @@
 /ButtonListener.class
 /Cat.class
 /CatRunner.class
+/ChuckleClicker.class
 /CowTimer.class
 /DistanceSensorDemo.class
 /DrumKit.class
@@ -21,6 +22,7 @@
 /Houses.class
 /Human.class
 /IceCreamVotes.class
+/IceCreamVotesRunner.class
 /Jeopardy.class
 /LandOfTurtles.class
 /LightSensorDemo.class
@@ -48,5 +50,3 @@
 /moo sound
 /right-arrow.png
 /up-arrow.png
-/IceCreamVotesRunner.class
-/ChuckleClicker.class
