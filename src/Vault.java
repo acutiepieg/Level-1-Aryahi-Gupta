@@ -8,7 +8,7 @@ public class Vault {
 			}
 public boolean tryCode(int guess) {
 	if (guess == code) {
-		System.out.print("The vault is unlocked. The code is " + guess);
+		System.out.println("The vault is unlocked. The code is " + guess);
 		return true;
 	}
 	else {
