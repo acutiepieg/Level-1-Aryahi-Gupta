@@ -44,7 +44,9 @@
 /SonarSensorDemo.class
 /Supply.class
 /Textbook.class
+/TypingTutor.class
 /Vault.class
+/VaultRunner.class
 /Zoo.class
 /down-arrow.png
 /drum sound.aiff
@@ -54,5 +56,4 @@
 /moo sound
 /right-arrow.png
 /up-arrow.png
-/VaultRunner.class
-/TypingTutor.class
+/WhackAMole.class
