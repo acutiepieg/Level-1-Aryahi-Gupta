@@ -16,8 +16,9 @@ public class WhackAMole implements ActionListener {
 	JPanel panel = new JPanel();
 
 	JButton mole = new JButton();
-	int counter = 0;
-	int molesWhacked;
+	static int counter;
+	static int molesWhacked;
+	static Date startTime = new Date();
 	
 	public static void main(String[] args) {
 		WhackAMole w = new WhackAMole();
@@ -53,8 +54,9 @@ public class WhackAMole implements ActionListener {
 
 	private void endGame(Date timeAtStart) {
 		Date timeAtEnd = new Date();
+		System.out.println(molesWhacked);
 		JOptionPane.showMessageDialog(null, "Your whack rate is "
-		+ ((timeAtEnd.getTime() - timeAtStart.getTime()) / 1000.00 / molesWhacked) + " moles per second.");
+		+( ((timeAtEnd.getTime() - timeAtStart.getTime()) / 1000.00) / molesWhacked) + " seconds per mole.");
 		}
 
 	
@@ -75,7 +77,8 @@ else {
 	WhackAMole w2 = new WhackAMole();
 }
 	if(counter == 10) {
-		endGame(new Date());
+		endGame(startTime);
+		System.exit(0);
 	}
 	
 	}
